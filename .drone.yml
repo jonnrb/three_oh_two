@@ -12,6 +12,7 @@ steps:
   settings:
     password:
       from_secret: quay_password
+    registry: quay.io
     repo: quay.io/jonnrb/three_oh_two
     username:
       from_secret: quay_username
